@@ -33,11 +33,7 @@ int randomNoGenerator(int limit)
 } 
 int main()
 {
-lit i;
-cout<<"Enter the times you want to play this game:  ";
-cin>>i;
-    while(i--)
-    {
+
         int limit = 100; 
     limit=randomNoGenerator(limit); 
     cout<<"Guess the number from 1 to 100: ";
@@ -57,5 +53,5 @@ cin>>i;
     }
     cout<<"Congrats you have guessed the right number"<<endl;
     
-    }   
+  
 }
